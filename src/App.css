@@ -1,0 +1,126 @@
+@font-face {
+  font-family: anud;
+  src: url(anud.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+body, td, th, p {
+  font-family: anud;
+  font-size: 10pt;
+  color: #333;
+  line-height: 1.5;
+  display: block;
+}
+
+.container {
+  display: inline-block;
+}
+
+.title {
+  background-color: black;
+  height: auto;
+  width: 100%;
+  color: orange;
+  text-align: center;
+  font-size: 20px;
+}
+
+#map {
+  height: 400px;
+  width: 100%;
+}
+
+.sideBar {
+  background: #222;
+  width: 100%;
+  height: auto;
+  width: 100%;
+}
+
+.input {
+  height: 25px;
+  width: 100%;
+}
+
+.form {
+  display: inline-block;
+  padding: 3px;
+}
+
+.place {
+  color: orange;
+  display: inline-block;
+  margin: auto;
+  width: auto;
+}
+
+li:hover {
+  color: white;
+}
+
+ul {
+  list-style: none;
+  display: inline-flex;
+  height: auto;
+  font-size: 15px;
+  margin: auto;
+}
+
+footer {
+  width: 100%;
+  background-color: #000;
+  flex-flow: row wrap;
+}
+
+.social {
+  display: inline-block;
+  height: 40px;
+  width: 30%;
+  text-align: center;
+  font-size: 20px;
+}
+
+a {
+  color: orange;
+}
+
+@media (max-width: 550px) {
+
+  .title {
+    background-color: black;
+    height: 90px;
+    width: 100%;
+    color: orange;
+    text-align: center;
+    font-size: 13px;
+  }
+
+  ul {
+    list-style: none;
+    display: inline-block;
+    height: auto;
+    font-size: 20px;
+    margin: auto;
+  }
+
+  .social {
+    display: block;
+    height: 45px;
+    width: 30%;
+    text-align: center;
+    font-size: 25px;
+  }
+}
